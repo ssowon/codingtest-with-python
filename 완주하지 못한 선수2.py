@@ -1,6 +1,6 @@
 #효율성 검사까지 모두 통과
 
-def solution(participant, completion):
+def solution(participant, completion): 
     answer = ''
 
     participant.sort()
