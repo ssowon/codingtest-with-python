@@ -5,7 +5,7 @@ def solution(phone_book):
         if phone_book[i][0] is not phone_book[i+1][0]:
             continue
         if phone_book[i] == phone_book[i+1][0:len(phone_book[i])]  :
-            return False
+            return False 
     return answer
 
 
