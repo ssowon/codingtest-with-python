@@ -11,7 +11,7 @@ def solution(people, limit):
         elif start > last :
             break
         if people[start]+people[last] > limit:
-            last -= 1
+            last -= 1 
             answer += 1
         else :
             start += 1
